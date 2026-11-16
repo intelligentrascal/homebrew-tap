@@ -4,11 +4,11 @@ cask "pip-house-elf" do
 
   url "https://github.com/intelligentrascal/pip/releases/download/v#{version}/Pip-#{version}-arm64.zip"
   name "Pip"
-  desc "Local-first desktop companion for the Mac"
+  desc "Local-first desktop companion"
   homepage "https://github.com/intelligentrascal/pip"
 
-  depends_on macos: ">= :sonoma"
   depends_on arch: :arm64
+  depends_on macos: :sonoma
 
   app "Pip.app"
 end
