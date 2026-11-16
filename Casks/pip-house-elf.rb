@@ -1,6 +1,6 @@
 cask "pip-house-elf" do
-  version "0.1.0-alpha.1"
-  sha256 "a9d5055cf596bc525ea801e0d112f4922a149171f5355f246dbde6f0d097862f"
+  version "0.1.0-alpha.2"
+  sha256 "e91bfc0d0a6e8680dcd70ff73e93d1362ad3cdf42dbbb4dfadf6305007cafefa"
 
   url "https://github.com/intelligentrascal/pip/releases/download/v#{version}/Pip-#{version}-arm64.zip"
   name "Pip"
